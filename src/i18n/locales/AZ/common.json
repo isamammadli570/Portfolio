@@ -1,0 +1,34 @@
+{
+    "brand": "İsa Məmmədli",
+    "nav": {
+        "about": "Haqqımda",
+        "services": "Xidmətlər",
+        "work": "Proyektlər",
+        "skills": "Bacarıqlar",
+        "cv": "CV",
+        "contact": "Əlaqə",
+        "label": "Əsas menyu"
+    },
+    "language": {"label": "Dili dəyiş"},
+    "errors": {
+        "load": "Məlumat yüklənmədi",
+        "action": "Əməliyyat alınmadı",
+        "network": "Şəbəkə xətası. İnterneti yoxlayın",
+        "contact": "Mesaj göndərilmədi, bir az sonra yenidən cəhd edin"
+    },
+    "notifications": {
+        "saved": "Yadda saxlanıldı",
+        "messageSent": "Mesajınız göndərildi. Tezliklə cavab verəcəyəm"
+    },
+    "loader": {"tagline": "Bir saniyə, piksellər yerinə oturur..."},
+    "notFound": {
+        "title": "Səhifə tapılmadı",
+        "description": "Axtardığınız səhifə mövcud deyil və ya köçürülüb.",
+        "back": "Ana səhifəyə qayıt"
+    },
+    "validation": {
+        "required": "Bu sahə vacibdir",
+        "email": "Düzgün e-poçt daxil edin",
+        "messageMin": "Mesaj ən azı {{count}} simvol olmalıdır"
+    }
+}

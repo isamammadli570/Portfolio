@@ -1,0 +1,137 @@
+{
+    "hero": {
+        "greeting": "Hello, World",
+        "subline": "console.log(\"Isa Mammadli — Frontend Developer\")",
+        "tag": "(00) — introduction",
+        "intro": "I'm Isa Mammadli.",
+        "specialty": "My stack —",
+        "roles": ["React.", "React Native.", "TypeScript.", "Tailwind CSS."],
+        "description": "I build web and mobile apps: clean architecture, fast interfaces and measurable results. Scroll down.",
+        "position": "Frontend Developer",
+        "location": "baku, azerbaijan — open to new projects",
+        "scroll": "Scroll down"
+    },
+    "manifesto": {
+        "label": "(01) — about",
+        "text": "I'm Isa — a *frontend developer* with 2+ years of experience. I build *responsive, user-centric* web and mobile apps with React, React Native and TypeScript. At Opportuland I rebuilt the onboarding flow and *grew daily registrations by 111%;* at NextClass I built a restaurant management system *from scratch.*"
+    },
+    "stats": {
+        "label": "(02) — in numbers",
+        "lead": "Writing code is one thing; delivering results is another. These are the measurable ones.",
+        "items": {
+            "years": "years of commercial experience",
+            "registrations": "daily registrations after the new onboarding flow",
+            "projects": "selected projects"
+        }
+    },
+    "principle": {
+        "label": "(03) — how I work",
+        "text": "Clean code, clear architecture and *measurable results.* Every component is *reusable,* every request is cached, every interface works *on every screen.*",
+        "flow": "plan → architecture → code → test → deploy",
+        "coda": "api → hooks → UI: components never call the network directly."
+    },
+    "services": {
+        "label": "(04) — what I do",
+        "title": "What I do",
+        "items": {
+            "frontend": {
+                "title": "Web apps",
+                "description": "Fast, accessible and scalable web apps with React and TypeScript: a considered folder structure, data flow with TanStack Query, interfaces in three languages."
+            },
+            "mobile": {
+                "title": "Mobile apps",
+                "description": "Apps for Android, iOS and the web from one codebase with React Native and Expo. Accounts, sync and notifications with Supabase."
+            },
+            "motion": {
+                "title": "Motion & interaction",
+                "description": "Scroll animations, micro-interactions and PWAs. Animations run on the GPU, stay smooth on weak phones and respect reduced motion."
+            },
+            "ai": {
+                "title": "AI-assisted development",
+                "description": "I use AI as part of the work: to set up the architecture, review the code and ship faster without losing quality."
+            }
+        }
+    },
+    "work": {
+        "label": "(05) — selected work",
+        "title": "Projects",
+        "view": "View live",
+        "code": "GitHub",
+        "screenshot": "{{name}} — screenshot"
+    },
+    "skills": {
+        "label": "(06) — skills",
+        "title": "My tech stack",
+        "hint": "Keep scrolling — we're moving forward",
+        "count": "{{count}} tools",
+        "outro": "Next up: full-stack.",
+        "groups": {
+            "frontend": "Frontend",
+            "mobile": "Mobile",
+            "styling": "Styling",
+            "data": "Data",
+            "backend": "Backend",
+            "tools": "Tools"
+        }
+    },
+    "experience": {
+        "label": "(07) — work & education",
+        "title": "Experience",
+        "items": {
+            "nextclass": {
+                "date": "11.2025 — now",
+                "role": "Front End Developer",
+                "company": "NextClass",
+                "description": "Built a restaurant management system (NextCook) on my own: architecture, database and front end. On an exam website, improved data fetching and navigation with TanStack Query and routing."
+            },
+            "codelandia": {
+                "date": "07.2025 — 09.2025",
+                "role": "Front End Developer",
+                "company": "Codelandia",
+                "description": "High-performance web apps with React, SCSS and modern JavaScript; turned complex UI/UX designs into pixel-perfect interfaces and built reusable components."
+            },
+            "opportuland": {
+                "date": "09.2024 — 02.2026",
+                "role": "Front End Developer",
+                "company": "Opportuland",
+                "description": "Redesigned the step-based onboarding flow — daily registrations rose by 111%. A mobile app with React Native and Expo and the company website; started as an intern in a remote Agile team."
+            },
+            "edu": {
+                "date": "2022 — 2026",
+                "role": "Industrial Engineering — Bachelor's",
+                "company": "Azerbaijan State University of Economics (UNEC)",
+                "description": "Engineering and computer graphics, linear algebra and analytic geometry, ergonomics and technical design, mathematical analysis."
+            }
+        }
+    },
+    "marquee": {"a": "Let's work together", "b": "React · React Native · TypeScript"},
+    "cv": {
+        "label": "(08) — résumé",
+        "title": "My full",
+        "titleAccent": "CV",
+        "titleEnd": "",
+        "download": "Download PDF",
+        "view": "View online",
+        "facts": {
+            "location": {"label": "Location", "value": "Baku, Azerbaijan"},
+            "languages": {"label": "Languages", "value": "Azerbaijani · Turkish · English"},
+            "education": {"label": "Education", "value": "UNEC — Industrial Engineering"},
+            "status": {"label": "Status", "value": "Open to new projects"}
+        }
+    },
+    "contact": {
+        "label": "(09) — contact",
+        "title": "Let's talk",
+        "form": {
+            "name": "Your name",
+            "namePlaceholder": "Full name",
+            "email": "Email",
+            "emailPlaceholder": "name@example.com",
+            "message": "Message",
+            "messagePlaceholder": "Tell me about your project or role",
+            "send": "Send",
+            "sending": "Sending..."
+        },
+        "footer": {"rights": "© 2026 Isa Mammadli. Built with React and TypeScript.", "top": "Back to top"}
+    }
+}

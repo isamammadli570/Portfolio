@@ -1,0 +1,230 @@
+@import "tailwindcss";
+@import "@fontsource-variable/inter-tight";
+@import "@fontsource-variable/jetbrains-mono";
+@import "@fontsource-variable/fraunces/wght.css";
+@import "@fontsource-variable/fraunces/wght-italic.css";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Cover tones are picked at runtime (`tone-${tone}`), so the scanner cannot see them. */
+@source inline("tone-g{1,2,3,4,5,6,7,8}");
+
+:root {
+    /* Paper and ink: the whole site is monochrome, with one muted "marginalia" accent. */
+    --background: #efeee9;
+    --foreground: #0e0e0d;
+    --surface: #f7f6f2;
+    --surface-muted: #e4e2db;
+    --muted-foreground: #6a6963;
+    --border: #cdcac1;
+
+    /* Single muted accent (terracotta ink). Set both to the foreground colour for a fully black-and-white site. */
+    --brand: #8f3b25;
+    --brand-ink: #f7f6f2;
+    --brand-soft: #ecdcd5;
+    --brand-glow: #d9a08c;
+
+    /* Dark "ink" surface used by the hero intro, the "how I work" statement, the works index, the corridor and the contact section. */
+    --ink: #0b0b0a;
+    --ink-foreground: #efeee9;
+    --ink-muted: #9b9a93;
+    --ink-border: #2e2e2b;
+
+    --success: #1f9d6b;
+    --danger: #c0392b;
+}
+
+@theme inline {
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+    --color-surface: var(--surface);
+    --color-surface-muted: var(--surface-muted);
+    --color-muted-foreground: var(--muted-foreground);
+    --color-border: var(--border);
+    --color-brand: var(--brand);
+    --color-brand-ink: var(--brand-ink);
+    --color-brand-soft: var(--brand-soft);
+    --color-brand-glow: var(--brand-glow);
+    --color-ink: var(--ink);
+    --color-ink-foreground: var(--ink-foreground);
+    --color-ink-muted: var(--ink-muted);
+    --color-ink-border: var(--ink-border);
+    --color-success: var(--success);
+    --color-danger: var(--danger);
+
+    --font-sans: "Inter Tight Variable", ui-sans-serif, system-ui, sans-serif;
+    --font-serif: "Fraunces Variable", Georgia, "Times New Roman", serif;
+    --font-mono: "JetBrains Mono Variable", ui-monospace, monospace;
+
+    --animate-grain: grain 0.8s steps(3) infinite;
+    --animate-spin-slow: spin 6s linear infinite;
+    --animate-line: line 2s cubic-bezier(0.7, 0, 0.2, 1) infinite;
+    --animate-blink: blink 1.2s steps(2) infinite;
+}
+
+@layer base {
+    html {
+        background: var(--background);
+        scroll-behavior: auto;
+    }
+
+    html.lenis,
+    html.lenis body {
+        height: auto;
+    }
+
+    .lenis.lenis-smooth {
+        scroll-behavior: auto !important;
+    }
+
+    .lenis.lenis-stopped {
+        overflow: clip;
+    }
+
+    body {
+        margin: 0;
+        font-family: var(--font-sans);
+        color: var(--foreground);
+        background: var(--background);
+        -webkit-font-smoothing: antialiased;
+        overflow-x: clip;
+    }
+
+    ::selection {
+        background: var(--foreground);
+        color: var(--background);
+    }
+
+    :focus-visible {
+        outline: 2px solid var(--brand);
+        outline-offset: 3px;
+    }
+}
+
+/* Small mono caption used for section labels, captions and meta lines. */
+@utility mono-label {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    letter-spacing: 0.02em;
+    text-transform: lowercase;
+}
+
+/* Large serif display type: light weight, tight tracking; <em> inside becomes the italic accent. */
+@utility display {
+    font-family: var(--font-serif);
+    font-weight: 330;
+    letter-spacing: -0.035em;
+    line-height: 0.95;
+    font-variation-settings: "opsz" 144;
+}
+
+@utility wrap {
+    width: 100%;
+    max-width: 82.5rem;
+    margin-inline: auto;
+    padding-inline: 2rem;
+}
+
+@utility animate-grain {
+    animation: var(--animate-grain);
+}
+
+@utility animate-spin-slow {
+    animation: var(--animate-spin-slow);
+}
+
+@utility animate-line {
+    animation: var(--animate-line);
+}
+
+@utility animate-blink {
+    animation: var(--animate-blink);
+}
+
+/* Monochrome placeholder covers — replace with real screenshots later. */
+@utility tone-g1 {
+    background: repeating-radial-gradient(circle at 50% 50%, #151514 0 6px, #2b2b29 6px 7px);
+}
+
+@utility tone-g2 {
+    background: repeating-linear-gradient(135deg, #e4e2db 0 10px, #cdcac1 10px 11px);
+}
+
+@utility tone-g3 {
+    background: radial-gradient(circle, #6a6963 1.4px, transparent 1.6px) 0 0 / 18px 18px, #efeee9;
+}
+
+@utility tone-g4 {
+    background: linear-gradient(#2e2e2b 1px, transparent 1px) 0 0 / 100% 22px, #0e0e0d;
+}
+
+@utility tone-g5 {
+    background: conic-gradient(from 90deg at 50% 50%, #0e0e0d, #6a6963, #efeee9, #6a6963, #0e0e0d);
+}
+
+@utility tone-g6 {
+    background: linear-gradient(90deg, #cdcac1 1px, transparent 1px) 0 0 / 28px 100%, linear-gradient(#cdcac1 1px, transparent 1px) 0 0 / 100% 28px, #f7f6f2;
+}
+
+@utility tone-g7 {
+    background: radial-gradient(ellipse at 50% 120%, #8a8982, #1a1a19 65%);
+}
+
+@utility tone-g8 {
+    background: repeating-linear-gradient(0deg, #0e0e0d 0 3px, #1f1f1d 3px 6px);
+}
+
+@keyframes grain {
+    0% {
+        transform: translate(0, 0);
+    }
+    33% {
+        transform: translate(-2%, 2%);
+    }
+    66% {
+        transform: translate(2%, -1%);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes line {
+    0% {
+        transform: scaleY(0);
+        transform-origin: top;
+    }
+    50% {
+        transform: scaleY(1);
+        transform-origin: top;
+    }
+    50.1% {
+        transform-origin: bottom;
+    }
+    100% {
+        transform: scaleY(0);
+        transform-origin: bottom;
+    }
+}
+
+@keyframes blink {
+    to {
+        opacity: 0;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.001ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.001ms !important;
+    }
+}

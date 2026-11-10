@@ -1,0 +1,8 @@
+{
+    "items": {
+        "nextcook": {"name": "NextCook", "category": "restoran idarəetmə sistemi · NextClass", "description": "Sifarişlər, mətbəx, kassa, anbar və hesabatlar bir sistemdə. Arxitekturanı, verilənlər bazasını və frontendi sıfırdan qurdum. Şirkət layihəsidir, kodu açıq deyil."},
+        "folio": {"name": "Folio", "category": "kitab mağazası", "description": "Dünya klassikləri üçün «muzey zalı» dizaynlı e-ticarət saytı: 60 kitab, 45 müəllif, 3D kitab, səbət və sifariş axını."},
+        "lumen": {"name": "Lumen", "category": "hava proqnozu · PWA", "description": "Azərbaycan üçün canlı hava: göy havaya görə dəyişir, saatlıq qrafiklər, hava keyfiyyəti, Ay fazaları. Telefona tətbiq kimi quraşdırılır və oflayn açılır."},
+        "reelbook": {"name": "Reelbook", "category": "mobil tətbiq · film gündəliyi", "description": "İzlədiyin film və serialların gündəliyi: qiymət, rəy, epizod izləmə, yeni seriya xatırlatmaları və illik statistika. Android, iOS və veb — bir koddan."}
+    }
+}

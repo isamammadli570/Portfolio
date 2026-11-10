@@ -1,0 +1,8 @@
+{
+    "items": {
+        "nextcook": {"name": "NextCook", "category": "restaurant management system · NextClass", "description": "Orders, kitchen, cashier, stock and reports in one system. I built the architecture, database and front end from scratch. A company project, so the code is private."},
+        "folio": {"name": "Folio", "category": "bookstore", "description": "An e-commerce site for world classics in a \"museum hall\" design: 60 books, 45 authors, a 3D book, cart and checkout."},
+        "lumen": {"name": "Lumen", "category": "weather · PWA", "description": "Live weather for Azerbaijan: a sky that changes with the weather, hourly charts, air quality, moon phases. Installs on a phone like an app and opens offline."},
+        "reelbook": {"name": "Reelbook", "category": "mobile app · film diary", "description": "A diary for the movies and series you watch: ratings, reviews, episode tracking, new-episode reminders and yearly stats. Android, iOS and the web from one codebase."}
+    }
+}

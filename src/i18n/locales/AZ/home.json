@@ -1,0 +1,137 @@
+{
+    "hero": {
+        "greeting": "Hello, World",
+        "subline": "console.log(\"İsa Məmmədli — Frontend Developer\")",
+        "tag": "(00) — giriş",
+        "intro": "Mən İsa Məmmədli.",
+        "specialty": "Stack-im —",
+        "roles": ["React.", "React Native.", "TypeScript.", "Tailwind CSS."],
+        "description": "Veb və mobil tətbiqlər qururam: təmiz arxitektura, sürətli interfeys və ölçülə bilən nəticə. Aşağı sürüşdürün.",
+        "position": "Frontend Developer",
+        "location": "bakı, azərbaycan — yeni layihələrə açığam",
+        "scroll": "Aşağı sürüşdür"
+    },
+    "manifesto": {
+        "label": "(01) — haqqımda",
+        "text": "Mən İsa — 2 ildən artıq təcrübəsi olan *frontend developerəm.* React, React Native və TypeScript ilə *responsiv və istifadəçi yönümlü* veb və mobil tətbiqlər qururam. Opportuland-da onboarding axınını yenidən quraraq gündəlik qeydiyyatları *111% artırdım,* NextClass-da isə restoran idarəetmə sistemini *sıfırdan* qurdum."
+    },
+    "stats": {
+        "label": "(02) — rəqəmlərlə",
+        "lead": "Kod yazmaq bir şeydir, nəticə vermək başqa. Bunlar ölçülə bilən nəticələrdir.",
+        "items": {
+            "years": "il kommersiya təcrübəsi",
+            "registrations": "gündəlik qeydiyyat artımı — yeni onboarding axını ilə",
+            "projects": "seçilmiş proyekt"
+        }
+    },
+    "principle": {
+        "label": "(03) — necə işləyirəm",
+        "text": "Təmiz kod, aydın arxitektura və *ölçülə bilən nəticə.* Hər komponent *təkrar istifadə* üçün, hər sorğu keşlə, hər interfeys *hər ekranda* işləyir.",
+        "flow": "plan → arxitektura → kod → test → deploy",
+        "coda": "api → hooks → UI: komponentlər heç vaxt şəbəkəyə birbaşa müraciət etmir."
+    },
+    "services": {
+        "label": "(04) — nə edirəm",
+        "title": "Nə edirəm",
+        "items": {
+            "frontend": {
+                "title": "Veb tətbiqlər",
+                "description": "React və TypeScript ilə sürətli, əlçatan və genişlənə bilən veb tətbiqlər: düşünülmüş qovluq quruluşu, TanStack Query ilə məlumat axını, üç dildə interfeys."
+            },
+            "mobile": {
+                "title": "Mobil tətbiqlər",
+                "description": "React Native və Expo ilə bir koddan Android, iOS və veb üçün tətbiqlər. Supabase ilə hesablar, sinxronizasiya və bildirişlər."
+            },
+            "motion": {
+                "title": "Animasiya və interaksiya",
+                "description": "Scroll animasiyaları, mikro-interaksiyalar və PWA. Animasiyalar GPU-da işləyir, zəif telefonda da axıcıdır, «reduced motion» nəzərə alınır."
+            },
+            "ai": {
+                "title": "Süni intellektlə inkişaf",
+                "description": "Süni intellekti işin bir hissəsi kimi istifadə edirəm: arxitekturanı qurur, kodu yoxlayır və keyfiyyəti itirmədən daha tez çatdırıram."
+            }
+        }
+    },
+    "work": {
+        "label": "(05) — seçilmiş işlər",
+        "title": "Proyektlər",
+        "view": "Canlı bax",
+        "code": "GitHub",
+        "screenshot": "{{name}} — ekran görüntüsü"
+    },
+    "skills": {
+        "label": "(06) — bacarıqlar",
+        "title": "Tech stack-im",
+        "hint": "Sürüşdürün — irəli gedirik",
+        "count": "{{count}} alət",
+        "outro": "Növbəti: full-stack.",
+        "groups": {
+            "frontend": "Frontend",
+            "mobile": "Mobil",
+            "styling": "Stil",
+            "data": "Məlumat",
+            "backend": "Backend",
+            "tools": "Alətlər"
+        }
+    },
+    "experience": {
+        "label": "(07) — iş və təhsil",
+        "title": "Təcrübə",
+        "items": {
+            "nextclass": {
+                "date": "11.2025 — indi",
+                "role": "Front End Developer",
+                "company": "NextClass",
+                "description": "Restoran idarəetmə sistemini (NextCook) tək başına qurdum: arxitektura, verilənlər bazası və frontend. İmtahan saytında TanStack Query və routing ilə məlumat axınını və naviqasiyanı yaxşılaşdırdım."
+            },
+            "codelandia": {
+                "date": "07.2025 — 09.2025",
+                "role": "Front End Developer",
+                "company": "Codelandia",
+                "description": "React, SCSS və müasir JavaScript ilə yüksək performanslı veb tətbiqlər; mürəkkəb UI/UX maketlərini piksel dəqiqliyi ilə interfeysə çevirdim və təkrar istifadə olunan komponentlər qurdum."
+            },
+            "opportuland": {
+                "date": "09.2024 — 02.2026",
+                "role": "Front End Developer",
+                "company": "Opportuland",
+                "description": "Addım-addım onboarding axınını yenidən qurdum — gündəlik qeydiyyatlar 111% artdı. React Native və Expo ilə mobil tətbiq, şirkət saytı; təcrübəçi kimi başlayıb uzaqdan Agile komandada işlədim."
+            },
+            "edu": {
+                "date": "2022 — 2026",
+                "role": "Sənaye mühəndisliyi — bakalavr",
+                "company": "Azərbaycan Dövlət İqtisad Universiteti (UNEC)",
+                "description": "Mühəndis və kompüter qrafikası, xətti cəbr və analitik həndəsə, erqonomika və texniki dizayn, riyazi analiz."
+            }
+        }
+    },
+    "marquee": {"a": "Gəlin birlikdə işləyək", "b": "React · React Native · TypeScript"},
+    "cv": {
+        "label": "(08) — rezüme",
+        "title": "Tam",
+        "titleAccent": "CV",
+        "titleEnd": "-m",
+        "download": "PDF yüklə",
+        "view": "Onlayn bax",
+        "facts": {
+            "location": {"label": "Yer", "value": "Bakı, Azərbaycan"},
+            "languages": {"label": "Dillər", "value": "Azərbaycan · Türk · İngilis"},
+            "education": {"label": "Təhsil", "value": "UNEC — Sənaye mühəndisliyi"},
+            "status": {"label": "Status", "value": "Yeni layihələrə açığam"}
+        }
+    },
+    "contact": {
+        "label": "(09) — əlaqə",
+        "title": "Danışaq",
+        "form": {
+            "name": "Adınız",
+            "namePlaceholder": "Ad Soyad",
+            "email": "E-poçt",
+            "emailPlaceholder": "ad@nümunə.com",
+            "message": "Mesaj",
+            "messagePlaceholder": "Layihəniz və ya vakansiya haqqında yazın",
+            "send": "Göndər",
+            "sending": "Göndərilir..."
+        },
+        "footer": {"rights": "© 2026 İsa Məmmədli. React və TypeScript ilə yazılıb.", "top": "Yuxarı qayıt"}
+    }
+}
